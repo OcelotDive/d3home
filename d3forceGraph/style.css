@@ -1,0 +1,64 @@
+body {
+    font: 10px sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+div.container {
+    position: absolute;
+    background-color: #000000;
+    width: 62%;
+    height: 82%;
+    top: 17%;
+    left: 19%;
+    border-radius: 70%;
+
+}
+.tooltip {
+    white-space: nowrap;
+}
+div.nodes img {
+    position: absolute;
+    z-index: 2;
+    border-radius: 5%;
+    height: 18px;
+    width: 35px;
+
+}
+div.nodes img:hover {
+    cursor: pointer;
+    cursor: -moz-pointer;
+    cursor: -webkit-pointer;
+}
+div.nodes img:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 5px 5px 5px;
+    color: #fff;
+}
+
+.svg {
+
+
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}

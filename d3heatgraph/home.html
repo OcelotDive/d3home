@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heat Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=650, user-scalable=yes">
+    
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+ 
+    <link rel="stylesheet"  href="style.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+      
+    <!-- move this into your css file -->
+ 
+  </head>
+  <body  class="animated fadeIn">
+      <img src="backImage.jpg" id="backGroundImage" />
+   
+
+
+      
+   
+      
+    <div class="container">
+        <div class="preTitle">d3 Heat Graph</div>
+        <div class="mainTitle">Monthly Global Land-Surface Temperature</div>
+        <div id="subHeader">Years 1753 - 2015</div>
+        <div id="base"></div>
+        <div class="heatmap">
+        
+        
+        </div>
+       
+    </div>
+      
+      <script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="functions.js"></script>
+      
+  </body>
+</html>

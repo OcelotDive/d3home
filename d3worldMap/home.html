@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>d3 World Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=650, user-scalable=yes">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+ 
+    <link rel="stylesheet"  href="style.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+    <!-- move this into your css file -->
+ 
+  </head>
+  <body class="animated fadeIn">
+   
+
+     <div id="container">
+        <div class="title">meteorite impacts across the globe</div>
+      <input class="greenButton btn btn-sm" name="greenButton" type="checkbox" value="on/off" onclick="greenOnOff()" checked='true'/>
+      <input class="purpleButton btn btn-sm" name="purpleButton" type="checkbox" value="on/off" onclick="purpleOnOff()" checked="true"/>
+      <input class="orangeButton btn btn-sm" name="orangeButton" type="checkbox" value="on/off" onclick="orangeOnOff()" checked="true"/>
+      <input class="redButton btn btn-sm" name="redButton" type="checkbox" value="on/off" onclick="redOnOff()" checked="true"/>
+      <div class="legendTitle">Mass in Kg</div>
+   </div>
+      
+   
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="functions.js"></script>
+      
+  </body>
+</html>
